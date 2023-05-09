@@ -23,7 +23,6 @@ const userNameAndRollNumbers: GenericArray<NameRollType> = [{
     roll: 2
 }]
 
-
 // Generic tuple
 
 type GenericTuple <X, Y> = [X, Y];
