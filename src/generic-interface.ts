@@ -40,3 +40,53 @@
 // },
 //     'Afroza'
 // ];
+
+
+// //  Generic interface
+
+// interface CrushInterface<T, U= null>{
+//     name: string;
+//     husband: T;
+//     wife?: U;
+// }
+
+// interface PersonInterface{
+//     name: string;
+//     age: number;
+// }
+
+// const crush1: CrushInterface<boolean, string> = {
+//     name: 'Afroza',
+//     husband: true,
+//     wife: "Chokina"
+// }
+
+// const crush2: CrushInterface<string> = {
+//     name: 'Afroza',
+//     husband: 'Imran'
+// }
+
+// interface HusbandInterface {
+//     name: string;
+//     salary: number;
+// }
+
+// const crush3: CrushInterface<HusbandInterface> = {
+//     name: 'Afroza',
+//     husband: {
+//         name: 'Imran',
+//         salary: 10000
+//     }
+// }
+
+// const crush4 : CrushInterface<PersonInterface, PersonInterface> = {
+//     name: 'Afroza',
+//     husband: {
+//         name: 'Imran',
+//         age: 23
+//     },
+//     wife: {
+//         name: 'Afroza',
+//         age: 20
+//     }
+// }
